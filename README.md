@@ -2,6 +2,7 @@
 
 ## TODO
 
+- docker-compose
 - k8s
 - helm
 
@@ -25,6 +26,6 @@ docker stop <container id from docker ps>
 
 #### Run Docker image
 
-`docker run -dp 127.0.0.1:8080:8080 helm-demo`
+`docker run -dp 127.0.0.1:8080:8080 helm-demo:0.0.1`
 
 `-d` means detached, remove it do display logs from the image to the terminal
