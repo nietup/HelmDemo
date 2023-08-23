@@ -2,9 +2,6 @@
 
 ## TODO
 
-- dockerfile
-  - [reading materials](https://docs.docker.com/get-started/02_our_app/)
-  - how to run specific image version?
 - k8s
 - helm
 
@@ -14,7 +11,8 @@
 
 ```
 docker build -t helm-demo:0.0.1 .
-docker run -dp 127.0.0.1:8080:8080 helm-demo
+docker run -dp 127.0.0.1:8080:8080 helm-demo:0.0.1
+docker stop <container id from docker ps>
 ```
 
 ### Explanations
