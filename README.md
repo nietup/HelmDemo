@@ -2,12 +2,13 @@
 
 ## TODO
 
-- [x] simple app
-- [ ] dockerfile
+- ustawić github nietup user na tym repo
+- quickstart guide
+- dockerfile
   - [reading materials](https://docs.docker.com/get-started/02_our_app/)
   - how to run specific image version?
-- [ ] k8s
-- [ ] helm
+- k8s
+- helm
 
 ## HOWTO
 
