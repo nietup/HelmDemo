@@ -1,0 +1,7 @@
+version: '3'
+services:
+  helm-demo:
+    container_name: helm-demo
+    image: helm-demo:0.0.1
+    ports:
+      - 8080:8080
