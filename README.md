@@ -2,7 +2,6 @@
 
 ## TODO
 
-- k8s
 - helm
 
 ## HOWTO
