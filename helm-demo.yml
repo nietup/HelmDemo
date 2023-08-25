@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: helm-demo-app
-        image: helm-demo:0.0.1
+        image: nietup/helm-demo:0.0.1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
@@ -33,5 +33,5 @@ spec:
   selector:
     app:  helm-demo-app
   ports:
-  - port:  80
+  - port:  8080
     targetPort:  8080
